@@ -1,0 +1,22 @@
+{
+  "name": "typescript_practicing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs": "^0.0.1-security"
+  }
+}
